@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" href="./img/Logo_Mighty_ducks-01.ico" type="image/x-icon">
+  <title>Mighty Ducks Hockey League | Registration</title>
+</head>
+<body>
+
+  <header>
+    <figure>
+      <img src="./img/Logo_Mighty_ducks-01.png" alt="logo Mighty">
+    </figure>
+    <h1 class="title1"> <span class="mighty">Mighty Ducks</span> Hockey League</h1>
+  </header>
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="logo_img" src="./img/Logo_Mighty_ducks-01.png" alt="logo Mighty"></a>
+      <h2 class="titleResponsive text-center registration_title">REGISTRATION</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon"><i class="bi bi-list"></i></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="./index.html"><i class="bi bi-house-door-fill"></i> Home</a>
+          <a class="nav-link" href="./about.html"><i class="bi bi-person"></i> About</a>
+          <a class="nav-link" href="./game_info.html"><i class="bi bi-info-circle-fill"></i> Info</a>
+          <a class="nav-link" href="./rules.html"><i class="bi bi-clipboard2-check"></i> Rules</a>
+          <a class="nav-link act" href="#"><i class="bi bi-pencil-square"></i> Registration</a>
+          <a class="nav-link" href="./contact.html"><i class="bi bi-chat-right-text-fill"></i> Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="banner">
+      <div class="Banner__color">
+
+      </div>
+      <div class="banner__img">
+
+      </div>
+    </div>
+
+    <h2 class="title2">Registration Form</h2>
+
+    <form action="./show_data.html">
+      <fieldset>
+        <legend>Personal information</legend>
+
+        <div class="d-flex flex-column gap-2 personal" >
+
+        <label >
+          <h6>Player's first name:</h6>
+        <input type="text" name="name" placeholder="Player's first name:">
+        </label>
+
+        <label>
+          <h6>Last name:</h6>
+          <input type="text" name="last_name" placeholder="Last name:">
+        </label>
+
+        <label>
+          <h6>Street Adress:</h6> 
+          <input type="text" name="address" placeholder="Street Adress:">
+        </label>
+
+        <label>
+          <h6>City:</h6> 
+          <input type="text" name="city" placeholder="City:">
+        </label>
+
+        <label>
+          <h6>Zip code:</h6> 
+          <input type="number" name="code" placeholder="Zip code:">
+        </label>
+
+        <label>
+          <h6>Birth Date:</h6> 
+          <input type="date"  name="date">
+        </label>
+
+      </div> 
+
+        <p class="form_p">Gender:</p>
+        <label>
+          <span>Female</span> 
+          <input name="gender" value="F" type="radio">
+        </label>
+
+        <label>
+          <span>Male</span> 
+          <input name="gender" value="M" type="radio">
+        </label>
+
+        <p class="form_p">Grade:</p>
+        <label>
+          <input name="grade" value="Pre-school" type="radio">
+          <span>Pre-school</span> 
+        </label>
+
+        <label>
+          <input name="grade" value="1st" type="radio">
+          <span>1st</span> 
+        </label>
+
+        <label>
+          <input name="grade" value="2nd" type="radio">
+          <span>2nd</span> 
+        </label>
+
+        <label>
+          <input name="grade" value="3rd" type="radio">
+          <span>3rd</span> 
+        </label>
+
+        <label>
+          <input name="grade" value="4th" type="radio">
+          <span>4th</span> 
+        </label>
+
+        <label>
+          <input name="grade" value="5th" type="radio">
+          <span>5th</span> 
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>School</legend>
+        <h3>Which elementary school do you live near?</h3>
+        <p class="form_p">Closest School:</p>
+        <div class="column">
+        <label>
+          <input name="school" value="aj" type="radio">
+          <span>AJ Katzenmaier</span> 
+        </label>
+
+        <label>
+          <input name="school" value="grennbay" type="radio">
+          <span>Greenbay</span> 
+        </label>
+
+        <label>
+          <input name="school" value="howard" type="radio">
+          <span>Howard A Yeager</span> 
+        </label>
+
+        <label>
+          <input name="school" value="marjorie" type="radio">
+          <span>Marjorie P Hart</span> 
+        </label>
+
+        <label>
+          <input name="school" value="north" type="radio">
+          <span>North Elementary</span> 
+        </label>
+
+        <label>
+          <input name="school" value="south" type="radio">
+          <span>South Elementary</span> 
+        </label>
+      </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Play position</legend>
+        <h3>What position(s) do you normally play? (check all that apply)</h3>
+      <div class="column">
+        <label>
+          <input name="position" type="checkbox" value="Forward">
+          <span>Forward</span> 
+        </label>
+
+        <label>
+          <input name="position" type="checkbox" value="Def">
+          <span>Defense</span> 
+        </label>
+
+        <label>
+          <input name="position" type="checkbox" value="Mid">
+          <span>Midfield</span> 
+        </label>
+
+        <label>
+          <input name="position" type="checkbox" value="Goal">
+          <span>Goalkeeper</span> 
+        </label>
+      </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Size</legend>
+        <h3>Uniform Size:</h3>
+        <div class="column">
+        <label>
+          <input name="size" type="radio" value="Y-S">
+          <span>Youth Small</span> 
+        </label>
+
+        <label>
+          <input name="size" type="radio" value="Y-M">
+          <span>Youth Medium</span> 
+        </label>
+
+        <label>
+          <input name="size" type="radio" value="Y-L">
+          <span>Youth Large</span> 
+        </label>
+
+        <label>
+          <input name="size" type="radio" value="S">
+          <span>Small</span> 
+        </label>
+
+        <label>
+          <input name="size" type="radio" value="M">
+          <span>Medium</span> 
+        </label>
+
+        <label>
+          <input name="size" type="radio" value="L">
+          <span>Large</span> 
+        </label>
+
+        <label>
+          <input name="size" type="radio" value="X-L">
+          <span>Extra-Large</span> 
+        </label>
+      </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Accept condition</legend>
+        <h3>Permission to Play</h3>
+        <p class="conditions">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MOHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MOHL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MOHL sponsored activities,which transportation
+          By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.
+          </p>
+
+          <label class="conditionsParents">
+             <p class="form_p">ParenVGuardianSignature:</p> 
+            <input required type="text" name="signature" placeholder="signature..." >
+          </label>
+
+          <label class="conditionsParents">
+            <h6>Date:</h6> 
+            <input type="date" name="date_sign">
+          </label>
+      </fieldset>
+
+      <div class="butons">
+        <input class="send" value="send" type="submit">
+        <input class="send reset" value="reset" type="reset">
+      </div>
+      
+    </form>
+
+
+
+    <a href="#" class="boton-arriba">↑</a>
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
